@@ -1110,6 +1110,47 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.portfolio .project {
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 12px 0px rgba(34, 34, 34, 0.07);
+  padding: 30px 20px;
+  background: #fff;
+}
+
+.portfolio .project img {
+  max-width: 60%;
+  margin: 0 0 30px 0;
+}
+
+.portfolio .project video {
+  max-width: 60%;
+  margin: 0 0 30px 0;
+}
+
+.portfolio .project h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+.portfolio .project span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+.portfolio .project p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: #aaaaaa;
+}
+
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
 .team .member {
   text-align: center;
   margin-bottom: 20px;
