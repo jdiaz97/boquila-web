@@ -1118,6 +1118,21 @@ section {
   background: #fff;
 }
 
+.centered-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-line {
+  position: relative;
+  display: inline-block;
+  width: 1px;
+  height: 20px; /* Adjust the height as needed */
+  background-color: #000; /* Adjust the color as needed */
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+
 .portfolio .project img {
   max-width: 60%;
   margin: 0 0 30px 0;
